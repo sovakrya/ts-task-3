@@ -1,0 +1,13 @@
+Реализовать класс SomeClass:
+
+const a = new SomeClass<
+{
+runMethodOne: number;
+runMethodTwo: void;
+}
+>();
+
+a.run("runMethodOne", 1);
+a.run("runMethodTwo", null)
+
+a.run("runMethodsdjhfbs", null); //error
