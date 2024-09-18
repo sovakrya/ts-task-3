@@ -1,4 +1,4 @@
-class SomeClass <T> {
+class SomeClass <T extends {runMethodOne: number, runMethodTwo: void}> {
 
   run<K extends keyof T>(method: K, val: T[K] | null): void{
       console.log(val)
